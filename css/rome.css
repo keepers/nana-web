@@ -46,13 +46,12 @@
 
 	header .logo {
 		background-color: transparent;
-		background-image: url(../img/misc/header-logo.png);
+		background-image: url(../img/logo.png);
 		background-position: left center;
 		background-repeat: no-repeat;
 		background-size: auto;
 		cursor: pointer;
 		height: 80px;
-		opacity: 0.5;
 		-webkit-transition: all .3s ease 0;
 		-moz-transition: all .3s ease 0;
 		-ms-transition: all .3s ease 0;
@@ -255,7 +254,6 @@
 		font-family: 'Montserrat';
 		font-size: 50px;
 		line-height: 40px;
-		text-transform: uppercase;
 	}
 
 	.home .info .welcome {
