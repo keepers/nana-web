@@ -236,7 +236,7 @@
 	}
 
 	.home .phone .preview img {
-		border: 3px solid #252527;
+		border: 1px solid #252527;
 		border-radius: 3px;
 		box-sizing: content-box !important;
 		height: 391px;
@@ -313,26 +313,31 @@
 	}
 
 	.home .info button:hover {
-		opacity: 0.85;
+		opacity: 0.8;
 	}
 
-	.home .info button.download {
-		background-color: #46a694;
+	.home .info button:active {
+		box-shadow: 0 0 0 0 !important;
+  		transform: translate(0px,5px);
+  		-webkit-transform: translate(0px,5px);
+  		-moz-transform: translate(0px,5px);
+	}
+
+	.home .info button.game-classic {
+		background-color: #5FA9F2;
 		border: none;
 		color: #ffffff;
 		margin-right: 20px;
+		box-shadow: 0 8px 0 0 #6cf;
+	    border-radius: 5px;
 	}
 
 	.home .info button.learn, .home button.watch {
-		background-color: transparent;
-		border: 1px solid #ffffff;
-		color: #ffffff;
-	}
-
-	.home .info button.learn:hover {
-		background-color: #ffffff;
+		background-color: #f8f8f8;
+		box-shadow: 0 8px 0 0 #CFE6DF;
+		border-radius: 5px;
+		border: 0;
 		color: #111111;
-		opacity: 1 !important;
 	}
 
 	.home .info button.watch {
@@ -360,6 +365,8 @@
 		-o-transition: all .5s ease 0;
 		transition: all .5s ease 0;
 	}
+
+
 
 	.hom .info div.download li:last-child {
 		margin: 0px 0px 0px 0px;

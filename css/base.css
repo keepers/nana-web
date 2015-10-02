@@ -151,7 +151,7 @@
 		transition: all .5s ease 0;
 	}
 
-	.button:hover,
+	/*.button:hover,
 	button:hover,
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
@@ -167,7 +167,7 @@
 	input[type="button"]:active {
 		background-color: #313338;
 		color: #eeeeee;
-	}
+	}*/
 
 	.button.full-width,
 	button.full-width,
@@ -179,11 +179,31 @@
 		padding-right: 0 !important;
 		text-align: center; }
 
-	/* Fix for odd Mozilla border & padding issues */
+	 /*Fix for odd Mozilla border & padding issues*/ 
 	button::-moz-focus-inner,
 	input::-moz-focus-inner {
     border: 0;
     padding: 0;
+	}
+
+	.button-nana {
+		background-color: #5FA9F2;
+		border: none;
+		color: #ffffff;
+		margin-right: 20px;
+		box-shadow: 0 8px 0 0 #6cf;
+	    border-radius: 5px;
+	}
+
+	.button-nana:active {
+		box-shadow: 0 0 0 0 !important;
+  		transform: translate(0px,5px);
+  		-webkit-transform: translate(0px,5px);
+  		-moz-transform: translate(0px,5px);
+	}
+
+	.button-nana:hover {
+		opacity: 0.8;
 	}
 
 
