@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 	$(document).scroll(function() { 
 		var y = $(this).scrollTop();
 		if($(this).scrollTop()>100) {
-			$('header').stop().animate({ backgroundColor: 'rgba(0,0,0,1)' }, 'fast');
+			$('header').stop().animate({ backgroundColor: 'rgba(37,41,44,0.9)' }, 'fast');
 		} else {
 			if(!$("body").hasClass("no-cover")) {
 				$('header').stop().animate({ backgroundColor: 'rgba(0,0,0,0)' }, 'fast');

@@ -60,7 +60,7 @@
             <ul>
               <li data-url="home" data-type="in">Home</li>
               <li data-url="about" data-type="in">About</li>
-              <li data-url="contact" data-type="in">Contact</li>
+              <li data-url="subscribe" data-type="in">Subscribe</li>
             </ul>
           </div>
           <!-- navigation -->
@@ -77,9 +77,28 @@
           <!-- container -->
           <div class="container clearfix fullscreen">
             <div class="phone eight columns">
-              <div class="preview">
-                <img src="./img/game/ss.png" alt="">
+
+            <div id="iphone5s" class="silver">
+              <div class="device">
+                <div class="inner"></div>
+                <div class="sleep"></div>
+                <div class="volume"></div>
+                <div class="camera"></div>
+                <div class="top-bar"></div>
+                <div class="sensor"></div>
+                <div class="speaker"></div>
+                <div class="screen">
+                  <img src="./img/game/ss.png" alt="" >
+                </div>
+                <div class="bottom-bar"></div>
+                <div class="start"></div>
               </div>
+            </div>
+
+             <!--  <div class="preview">
+                <img src="./img/game/ss.png" alt="">
+              </div> -->
+
             </div>
             <div class="info eight columns">
               <div class="logo">nana</div>
@@ -115,19 +134,15 @@
     <!-- section -->
 
 
-    <!-- section -->
-    <section class="contact" id="contact">
+   <!--  <section class="contact" id="contact">
       <div class="offset">
-        <!-- container -->
         <div class="container clearfix">
           <div class="sixteen columns">
             <div class="title">Subscribe</div>
             <div class="devider"></div>
           </div>
         </div>
-        <!-- container -->
 
-        <!-- container -->
         <div class="container clearfix">
           <div class="phone eight columns">
             <div id="iphone5s" class="silver">
@@ -167,13 +182,62 @@
               </p>
             </form>
           </div>
-          <!-- container -->
 
         </div>
-        <!-- container -->
       </div>
-    </section>
+    </section> -->
+
     <!-- section -->
+		<section class="subscribe" id="contact">
+
+			<div class="offset">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns">
+						<div class="title">Subscribe to our newsletter</div>
+						<div class="subtitle">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Cum sociis natoque penatibus.</div>
+					</div>
+
+				</div> 
+				<!-- container -->
+
+
+				<!-- container -->
+				<div class="container clearfix">
+
+					<div class="form eleven columns">
+
+						<form method="post" action="subscribe.php">
+
+							<p>
+					        	<input type="text" name="email" id="email" placeholder="Enter your e-mail address..." />
+							</p>
+
+					        <p>
+					        	<button id="submit" class="game-classic">Let me know</button>
+					        </p>
+
+					    </form>
+
+						<div class="msg-success">
+							<p>Thank you!</p>
+						</div>
+
+						<div class="msg-error">
+							<p>Sorry!</p>
+						</div>
+
+					</div>
+				</div>
+				<!-- container -->
+
+			</div>
+
+		</section>
+		<!-- section -->
+
 
 
     <!-- footer -->

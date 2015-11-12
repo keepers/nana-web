@@ -49,7 +49,7 @@
 		background-image: url(../img/logo.png);
 		background-position: left center;
 		background-repeat: no-repeat;
-		background-size: auto;
+		background-size: contain;
 		cursor: pointer;
 		height: 80px;
 		-webkit-transition: all .3s ease 0;
@@ -214,17 +214,17 @@
 	}
 
 	.home .phone {
-		background-image: url(../img/misc/phone.png);
-		background-repeat: no-repeat;
-		background-position: center center;
+		/*background-image: url(../img/misc/phone.png);*/
+		/*background-repeat: no-repeat;*/
+		/*background-position: center center;*/
 		bottom: 0px;
 		height: 621px;
 		left: -80px;
-		padding-left: 224px;
-		padding-top: 79px;
+		/*padding-left: 224px;*/
+		padding-top: 40px;
 		position: absolute;
 		text-align: left;
-		width: 803px !important;
+		/*width: 803px !important;*/
 	}
 
 	.home .phone .preview img {
@@ -289,7 +289,7 @@
 		margin-top: 60px;
 	}
 
-	.home .info button {
+	button {
 		border-radius: 3px;
 		font-size: 13px;
 		font-weight: 700;
@@ -304,18 +304,18 @@
 		transition: all .5s ease 0;
 	}
 
-	.home .info button:hover {
+	button:hover {
 		opacity: 0.8;
 	}
 
-	.home .info button:active {
+	button:active {
 		box-shadow: 0 0 0 0 !important;
   		transform: translate(0px,5px);
   		-webkit-transform: translate(0px,5px);
   		-moz-transform: translate(0px,5px);
 	}
 
-	.home .info button.game-classic {
+	button.game-classic {
 		background-color: #5FA9F2;
 		border: none;
 		color: #ffffff;
@@ -820,18 +820,18 @@
 ================================================== */
 
 	.subscribe {
-		background-color: #25292c;
+		background-color: #eee;
 		text-align: center;
 	}
 
 	.subscribe .offset {
-		padding: 40px 0px 0px !important;
+		padding: 40px 0px 40px !important;
 	}
 
 	.subscribe .title {
-		color: #eeeeee;
+		color: #25292c;
 		font-size: 24px;
-		margin: 100px auto 30px;
+		margin: 50px auto 30px;
 		width: 640px;
 	}
 
@@ -880,16 +880,7 @@
 
 
 	.subscribe .form button  {
-		background-color: transparent;
-		background-image: url(../img/misc/subscribe-notify.png);
-		background-repeat: no-repeat;
-		background-position: right center;
-		background-size: 6px 10px;
-		font-size: 14px;
-		margin-top: 0px;
-		opacity: 0.5;
-		padding-left: 20px;
-		padding-right: 12px;
+		margin-top: -5px;
 	}
 
 	.subscribe .form button:focus {
